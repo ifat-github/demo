@@ -35,13 +35,13 @@ let writeAWord = function (matrix, word) {
 //         while (move_r > 0) {
 //             console.log('D');
 //             r++;
-//             move_r--;
-//         }
-//         while (move_r < 0) {
-//             console.log('U');
-//             r--;
-//             move_r++;
-//         }
+            move_r--;
+        }
+        while (move_r < 0) {
+            console.log('U');
+            r--;
+            move_r++;
+        }
 //         if (c === to_c && r === to_r) {
 //             console.log('!');
 //         }
