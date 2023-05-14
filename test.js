@@ -1,12 +1,12 @@
-// let createCharMap = function (matrix) {
-//     let charMap = new Map();
-//     for (let r = 0; r < matrix[0].length; r++) {
-//         for (let c = 0; c < matrix.length - 1; c++) {
-//             charMap[matrix[r][c]] = [r, c];
-//         }
-//     }
-//     return charMap;
-// }
+let createCharMap = function (matrix) {
+    let charMap = new Map();
+    for (let r = 0; r < matrix[0].length; r++) {
+        for (let c = 0; c < matrix.length - 1; c++) {
+            charMap[matrix[r][c]] = [r, c];
+        }
+    }
+    return charMap;
+}
 
 // let writeAWord = function (matrix, word) {
 //     let c = 0;
