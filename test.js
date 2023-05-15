@@ -8,13 +8,13 @@ let createCharMap = function (matrix) {
 //     return charMap;
 // }
 
-let writeAWord = function (matrix, word) {
-    let c = 0;
-    let r = 0;
-    let to_c = 0;
-    let to_r = 0;
-    let move_c = 0;
-    let move_r = 0;
+// let writeAWord = function (matrix, word) {
+//     let c = 0;
+//     let r = 0;
+//     let to_c = 0;
+//     let to_r = 0;
+//     let move_c = 0;
+//     let move_r = 0;
 
 //     let charMap = createCharMap(matrix);
 //     for (let char of word) {
