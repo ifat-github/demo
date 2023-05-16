@@ -52,18 +52,18 @@ let writeAWord = function (matrix, word) {
 // let word = "ifat";
 // writeAWord(matrix, word);
 
-class User {
-    constructor (name) {
-        this.name = name;
-    }
-    getName() {
-        console.log('debug, ', this)
-        return this.name;
-    }
-    printSeatNumber() {
-        console.log('The seats have not been set');
-    }
-}
+// class User {
+//     constructor (name) {
+//         this.name = name;
+//     }
+//     getName() {
+//         console.log('debug, ', this)
+//         return this.name;
+//     }
+//     printSeatNumber() {
+//         console.log('The seats have not been set');
+//     }
+// }
 
 class Meeting {
     constructor (users) {
